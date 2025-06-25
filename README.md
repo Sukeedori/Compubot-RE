@@ -1,0 +1,2 @@
+# Compubot-RE
+El robot Compubot es un recurso educativo innovador que integra robótica e inteligencia artificial para apoyar la enseñanza del tema “Reconocimiento de dispositivos de entrada y salida de un computador”. Este recurso está diseñado para dinamizar la enseñanza de la asignatura de informática. Además, Compubot permite al estudiante identificar objetos físicos (como mouse, teclado, monitor, entre otros) mediante un sistema de visión artificial basado en el microcontrolador ESP32-CAM y un modelo de reconocimiento entrenado con Edge Impulse.
