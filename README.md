@@ -23,13 +23,16 @@ Para el funcionamiento de la pantalla OLED y la cámara ESP32-CAM, instala las s
 
 
 **Pasos de instalación:**
-1. Ve a **Sketch → Include Library → Manage Libraries**.
-2. Busca cada librería por su nombre e instálala.
-3. Para el paquete de tarjetas ESP32, ve a **File → Preferences** y en *Additional Board Manager URLs* agregar los enlaces respectivos:
-4. Luego ve a **Tools → Board → Board Manager** y busca **esp32**, instálalo.
-   
-(https://dl.espressif.com/dl/package_esp32_index.json)
-(https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
+1. Ve a **Sketch → Include Library → Manage Libraries** y busca e instala las librerías **Adafruit SSD1306** y **Adafruit GFX Library**.
+2. Para instalar el paquete de tarjetas **ESP32**:
+   - Ve a **File → Preferences**.
+   - En el campo *Additional Board Manager URLs*, agrega las siguientes direcciones (puedes separarlas con una coma o ponerlas en líneas diferentes):
+     ```
+     https://dl.espressif.com/dl/package_esp32_index.json
+     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+     ```
+   - Presiona **OK**.
+3. Luego ve a **Tools → Board → Board Manager**, busca **esp32** e instálalo.
 ---
 
 ## OPCIONAL: Descargar la librería del modelo desde Edge Impulse si desea adaptar el modelo
